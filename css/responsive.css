@@ -1,0 +1,542 @@
+@media only screen and (max-width: 1400px){
+	.wrapper, footer .footer-hldr { max-width: 95%!important;}
+	
+	/*FONTS*/
+	.sec-title { font-size: 50px!important;}
+	.build-hope .content-hldr { max-width: 80%!important; }
+	.card-section .mainlist > li .item article h4, .about .sec-1 .abt-column ul li h4 {font-size: 35px!important;}
+	.about .sec-1 .animated-des .hero-text h4 {  font-size: 40px!important; line-height: 55px!important;}
+	.about .sec-1 .img-bckground .hldr .hero-text h4, .about .sec-1 .img-bckground .hldr .hero-pop h4 { font-size: 40px!important;}
+
+	.thanks .sec-1 .thanks-hldr .submit-hldr aside h4, .thanks .sec-1 .thanks-hldr .parent article h4 {font-size: 30px!important; line-height: 50px!important;}
+
+
+	/*HOME*/
+	footer .footer-hldr > ul.main-list > li:nth-child(2) { padding-left: 45px!important;}
+	.about .sec-1 .abt-column { max-width: 900px!important; padding: 0px 20px;}
+
+}
+
+
+
+@media only screen and (max-width: 1200px){
+	header .header-hldr .nav-list > li { padding: 0px 15px!important;}
+	
+
+
+	/*FONTS*/
+	.home .sec-1 .home-carousel .item .hldr article p, .build-hope .content-hldr p { font-size: 20px!important;}
+	.sec-title { font-size: 40px!important}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent article h4, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .hldr h4, .exp-page .sec-1 .btm .main-list li h4 {font-size: 30px!important;}
+	.card-section .mainlist > li .item article h4, .exp-inner1 .sec-1 .hldr article h4, .exp-inner1 .sec-2 .con-hldr .future .main-hldr > article h4{ font-size: 30px!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li a { font-size: 18px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .hldr h4{ line-height: 44px!important;}
+		
+
+	/*HOME*/
+	.home .sec-1 .home-carousel .item .hldr article { padding-left: 60px!important;}
+	.home .sec-1 .home-carousel .item .hldr { max-width: 100%!important;}
+	.build-hope .content-hldr { max-width: 90%!important;}
+	.build-hope .star { bottom: 21%!important; left: 2%!important;}
+	.build-hope .school { bottom: 9%!important; left: 10%!important;}
+
+	.about .sec-1 .img-bckground .hldr .hero-pop { max-width: 90%!important;}
+
+	.exp-inner1 .sec-1 .hldr aside .img-hldr { width: 100%!important}
+	.exp-inner1 .sec-1 .hldr aside { width: 450px!important;}
+	.exp-inner1 .sec-1 .hldr aside .img-hldr img { width: 100%!important;}
+	.exp-inner1 .sec-1 .hldr article { width: calc(100% - 450px)!important; padding: 2.9% 4% 125px 4%!important;}
+
+
+	.exp-inner1 .sec-2 .con-hldr .donate, .exp-inner1 .sec-2 .con-hldr .faq, .exp-inner1 .sec-2 .con-hldr .updates { padding: 0px 0px!important; max-width: 95%!important; width: 100%!important; margin: 0 auto;}
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > article{ padding: 10.6% 2.5%!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .faq .main-hldr aside { width: 430px!important;}
+	.exp-inner1 .sec-2 .con-hldr .faq .main-hldr article { width: calc(100% - 430px)!important; }
+
+	.exp-page .sec-1 .top .hldr ul li .parent .children p, .exp-page .sec-1 .btm .main-list li a { font-size: 18px!important;}
+	.exp-page .sec-1 .top .hldr ul li .parent .children select { max-width: 100%!important;}
+	.exp-page .sec-1 .top .hldr { min-width: auto!important; max-width: 800px;}
+
+	.thanks .sec-1 .thanks-hldr{ max-width: 90%!important;}
+	.thanks .sec-1 .thanks-hldr .submit-hldr aside .img-hldr img{ left: 0!important;}
+	.thanks .sec-1 .thanks-hldr .parent aside { width: 500px!important;}
+	.thanks .sec-1 .thanks-hldr .parent article { width: calc(100% - 500px)!important}
+
+}
+
+
+@media only screen and (max-width: 999px){
+	.wrapper, footer .footer-hldr { padding: 0px 20px!important; max-width: 100%!important;}
+
+
+	header { position: relative!important;}
+	header .header-hldr .o-hide { opacity: 1!important;}
+	header .header-hldr .nav-list { display: none!important;}
+	.mobile-btns { display: block!important; }
+	header .header-hldr aside { margin: 0 auto;}
+	.burger { display: block!important;}
+	.about-pages img { display: none!important;}
+	.about-pages .for-about { display: block!important;}
+
+
+	/*FONTS*/
+	.home .sec-1 .home-carousel .item .hldr article p, .build-hope .content-hldr p { font-size: 18px!important; letter-spacing: 1px;}
+	.card-section .mainlist > li .item article p, .how-it-works .hldr ul li p, .how-it-works .hldr .btns-hldr a, .about .sec-1 .animated-des .hero-text p, .about .sec-1 .abt-column ul li h6, .about .sec-1 .iwant a, .about .sec-1 .img-bckground .hldr .hero-text p, .about .sec-1 .img-bckground .hldr .hero-pop ul li .item article a, .exp-inner1 .sec-1 .hldr article .plist li, .exp-inner1 .sec-2 .con-hldr .future .main-hldr > article p, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent article p  { font-size: 18px!important;}
+	.exp-inner1 .sec-2 .btm-list a, .exp-inner1 .sec-2 .btm-list p { font-size: 20px!important;}
+
+	/*HOME*/
+	.home .sec-1 .home-carousel .item .hldr { padding-top: 320px!important;}
+	.home .sec-1 .logo-hldr { top: 148px!important;}
+	.home .sec-1 .home-carousel .item .floatings-list { max-width: 100%!important;}
+	.home .sec-1 .home-carousel .item .floatings-list li img{ width: 100%!important; }
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(6) { left: 38.52%!important; top: 7.17%!important; width: 130px!important}
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(5) { left: 62.53%!important; top: 11.77%!important; width: 185px!important;}
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(3) { right: 4.80%!important; top: 30.62%!important; width: 130px!important}
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(7) { right: 0!important; bottom: 0!important}
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(2) { bottom: 16.74%!important; left: 30.06%!important; width: 150px!important;}
+	.home .sec-1 .home-carousel .item .floatings-list li:first-child { left: 60px!important; bottom: 20.19%!important;}
+	.home .sec-1 .home-carousel .owl-item.active .floatings-list li:nth-child(4) { bottom: 6.22%!important; left: 12.28%!important; width: 124px!important;}
+	.home .sec-1 .home-carousel .item .hldr aside { width: 400px!important;}
+	.home .sec-1 .home-carousel .item .hldr article { min-width: auto!important; max-width: calc(100% - 400px)!important; padding-right: 20px!important; padding-top: 45px!important}
+	.build-hope .globe { width: 130px!important; top: 30px!important;}
+	.build-hope .content-hldr { max-width: 520px!important; padding: 80px 0px 80px!important; }
+	.card-section .mainlist > li .item article { padding: 40px 20px!important;}
+	.blue-btn a { font-size: 18px!important; padding: 10px 35px!important;}
+	.card-section .mainlist > li .item article .btns-card a { font-size: 18px!important; }
+	.how-it-works { padding: 75px 0px 100px!important;}
+	.how-it-works .hldr ul li { width: 100%!important; margin-bottom: 40px!important;}
+	footer { padding: 40px 0px!important;}
+	footer .footer-hldr > ul.main-list > li:first-child  { width: 100%!important; margin-bottom: 70px;}
+	footer .footer-hldr > ul.main-list li aside img { width: auto!important; max-width: 100%!important; margin: 0 auto!important; display: block!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) { width: 100%!important; padding-left: 0px!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list > li { width: 100%!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list > li:nth-child(3) { order: 1;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list > li:first-child { order: 2; padding-right: 0px!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list > li:nth-child(2) { order: 3; padding-right: 0px!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list .email-form { padding-left: 0px!important; margin-bottom: 50px;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list{ max-width: 685px!important; margin: 0 auto;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list .email-form h4 { margin-bottom: 20px!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li ul li { width: auto!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li ul {justify-content: space-around!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li:nth-child(2) ul li:first-child { width: 100%!important; text-align: center; padding: 30px 0px;}
+	footer .footer-hldr .cred-list { justify-content: center!important;}
+	footer .footer-hldr .social-list { top: -106px!important;}
+
+
+	.about .sec-1 .animated-des .hero-text  { max-width: 565px!important; padding: 0px 20px!important;}
+
+
+	.about .sec-1 .animated-des { min-height: auto!important; padding-top: 0px!important; padding: 235px 0px 345px!important;}
+	.about .animated-des.bg-green .floating-list li:nth-child(5) { top: 60px!important; width: 180px!important;}
+	.about .animated-des.bg-green .floating-list li img, .about .animated-des.bg-orange .floating-list li img{ width: 100%!important; }
+
+	.about .sec-1 .animated-des.bg-green .floating-list.active li:nth-child(4){ width: 140px!important;}
+	.about .sec-1 .animated-des.bg-green .floating-list.active li:nth-child(1) { width: 110px!important;}
+	.about .sec-1 .animated-des.bg-green .floating-list.active li:nth-child(2){ width: 110px!important;}
+	.about .sec-1 .abt-column .hldr { padding: 0px!important;  min-height: auto!important;}
+	.about .sec-1.v-background { padding: 60px 0px!important;}
+	.about .sec-1 .abt-column ul li { width: 100%!important; margin-bottom: 60px;}
+	.about .sec-1 .abt-column ul li:last-of-type { margin-bottom: 0px;}
+
+
+	.about .animated-des.bg-orange { padding: 165px 0px 345px!important;}
+	.about .animated-des.bg-orange .floating-list li:nth-child(8) { width: 160px!important; top: 55px!important;}
+	.about .animated-des.bg-orange .floating-list li:nth-child(6) { top: 30px!important; width: 110px!important;}
+	.about .animated-des.bg-orange .floating-list li:nth-child(3) { width: 180px!important;}
+	.about .animated-des.bg-orange .floating-list.active li:nth-child(4) { width: 60px!important;}
+	.about .animated-des.bg-orange .floating-list li:nth-child(7) { width: 125px!important;}
+	.about .animated-des.bg-orange .floating-list.active li:nth-child(2) { width: 140px!important;}
+
+
+
+	.about .animated-des.lblue { padding: 20px 0px!important; min-height: calc(100vh - 106px)!important;}
+
+
+	.about .sec-1 .img-bckground .hldr > aside {     position: absolute; left: 0; width: 100%; height: 100%!important; top: 0;}
+	.about .sec-1 .img-bckground .hldr .hero-text {     max-width: 565px!important; padding-top: 0px!important; padding: 80px 20px!important; position: relative!important; transform: translate(0, 0)!important; top: 0!important; left: 0!important; margin: 0 auto!important;}
+
+
+	.about .sec-1 .img-bckground .hldr .hero-pop { position: relative!important; top: 0!important; left: 0!important; transform: translate(0, 0)!important; padding: 30px 20px!important; width: 100%!important; margin: 0 auto;}
+
+	.about .sec-1 .img-bckground .hldr.about-pop { padding: 110px 0px; }
+	.about .sec-1 .img-bckground .hldr .hero-pop { max-width: 75%!important}
+	.about .sec-1 .img-bckground .hldr .hero-pop ul li { width: 100%!important; margin-bottom: 40px!important}
+	.about .sec-1 .img-bckground .hldr .hero-pop ul li .item article a { display: inline-block!important;}
+
+	.experience-initial .sec-1 .floating-list li { display: none!important;}
+	.experience-initial .sec-1 { padding: 110px 0px!important;}
+	.experience-initial .card-section { padding: 70px 0px!important;}
+
+	.exp-inner1 .sec-1 { padding-top: 20px!important}
+	.exp-inner1 .sec-1 .hldr aside { width: 100%!important;}
+	.exp-inner1 .sec-1 .hldr aside .img-hldr { position: relative!important; left: 0!important; transform: translate(0, 0)!important; padding: 30px 0px 0px;}
+	.exp-inner1 .sec-1 .hldr aside .img-hldr img { width: auto!important; max-width: 100%!important; display: block; margin: 0 auto;}
+	.exp-inner1 .sec-1 .hldr article { width: 100%!important; padding: 40px 0px!important; min-height: auto!important;     max-width: 87%!important; margin: 0 auto;}
+	.exp-inner1 .sec-1 .hldr article .lg { display: none!important;}
+	.exp-inner1 .sec-1 .hldr article h4  { text-align: center!important;}
+
+	.exp-inner1 .sec-2 { padding: 40px 0px 170px!important;}
+
+	.exp-inner1 .sec-1 .hldr article .leggo  { display: block!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent > .children { width: 100%!important; margin-bottom: 30px;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent > .children:last-of-type { margin-bottom: 0px}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .parent.donate-card .children { margin-bottom: 50px;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .parent.donate-card .children:last-of-type { margin-bottom: 0px;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li { margin-bottom: 55px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li:last-child { margin-bottom: 30px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent > .children { padding: 30px 20px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type aside { left: 20px!important; top: 30px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type aside { width: 130px!important; height: 130px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type ul li:first-child, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type ul li:nth-child(2) { padding-left: 160px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type ul li input[type="text"], .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type ul li input[type="email"] { height: 39px!important; }
+
+	.exp-inner1 .sec-2 .con-hldr .donate, .exp-inner1 .sec-2 .con-hldr .faq, .exp-inner1 .sec-2 .con-hldr .updates { max-width: 100%!important; padding: 0px 20px!important;}
+	.exp-inner1 .sec-2 .btm-list { margin-top: 30px!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside { width: 100%!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > article { width: 100%!important; padding: 60px 0px!important; max-width: 80%!important; margin: 0 auto!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .img-hldr { min-height: auto!important;}
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .img-hldr img { position: relative!important;}
+	.exp-inner1 .sec-2 .con-hldr .future .btm-list { padding: 0px 20px!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .faq .main-hldr article { width: 100%!important;}
+	.exp-inner1 .sec-2 .con-hldr .faq .main-hldr aside { display: none!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .faq .main-hldr, .exp-inner1 .sec-2 .con-hldr .updates .hldr{ max-width: calc(87% + 40px); margin: 0 auto; padding: 40px 0px;}
+
+	.exp-inner1 .sec-2 .tab-label  { padding: 15px!important; padding-right: 40px!important; font-size: 18px!important;}
+	.exp-inner1 .sec-2 input:checked ~ .tab-content { padding: 1em 15px!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul li { width: 100%!important; margin-bottom: 40px;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent article { width: 100%!important; padding-right: 0px!important; text-align: center!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent aside { width: 100%!important; padding-left: 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list::after { display: none!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list { background: #fff!important; padding: 0px 0px!important}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent .children{ display: none!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent { flex-direction: column-reverse!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .top { margin-bottom: 35px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent aside .img-hldr img { width: 100%!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .icon-hldr { text-align: center!important; margin: 20px 0px 40px!important;}	
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent article h4 { margin-bottom: 15px!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent.rev aside { padding-right: 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent.rev article { padding-left: 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .icon-hldr.fr.movefr img { right: 0!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent .img-right-btm { 
+		display: -webkit-box;  
+		display: -moz-box; 
+	 	display: -ms-flexbox;  
+		display: -webkit-flex;  
+		display: flex;  
+		-webkit-flex-flow: row wrap;  
+		justify-content: flex-start;  
+		flex-wrap: wrap;
+	}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent .img-right-btm h5 {order: 2; width: 100%;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent .img-right-btm h4 {order: 3; width: 100%;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent .img-right-btm p {order: 4; width: 100%;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent .img-right-btm .icon-hldr {order: 1; width: 100%;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list > li { margin-bottom: 0px!important; padding-bottom: 150px; position: relative; padding-top: 50px;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list > li:first-child { padding-top: 0px;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list > li::after { position: absolute; height: 100px; content: ''; background: #000; left: 50%; bottom: 0; transform: translate(-50%, 0); width: 3px;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list:last-of-type > li:last-child { padding-bottom: 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list:last-of-type > li:last-child::after { display: none!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial { padding: 80px 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .icon.right-top img { display: none!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .icon { position: relative!important; bottom: 0!important; left: 0!important; margin: 0 auto;} 
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .icon img{ width: 140px!important; margin: 0 auto; display: block;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates { overflow: hidden;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .icon-hldr img{ width: 140px!important;}
+	.exp-inner1 .sec-2 .btm-list a, .exp-inner1 .sec-2 .btm-list li { width: 100%; text-align: center;}
+
+
+	.exp-page .sec-1 .top .floating-list { display: none!important;}
+
+	.exp-page .sec-1 .top { padding: 90px 0px!important;}
+	.exp-page .sec-1 .top .hldr { max-width: 100%!important; padding: 0px 60px!important;}
+	.exp-page .sec-1 .btm { padding: 30px 60px!important;}
+	.exp-page .sec-1 .btm .main-list > li:first-child { width: 100%!important; margin-bottom: 15px;}
+	.exp-page .card-section { padding: 0px 60px;}
+	.exp-page .card-section .mainlist { padding: 0px!important;}
+
+	.thanks .sec-1 .thanks-hldr .submit-hldr aside { max-width: 100%!important; padding-right: 0px!important;}
+
+
+
+	.thanks .sec-1 .thanks-hldr .submit-hldr { padding-top: 0px!important;}
+
+	.thanks .sec-1 { padding-top: 75px!important;}
+	.thanks .sec-1 .thanks-hldr .submit-hldr aside h4, .thanks .sec-1 .thanks-hldr .parent article h4 { text-align: center!important;}
+	.thanks .sec-1 .thanks-hldr .submit-hldr aside .img-hldr {display: none!important;}
+	.thanks .sec-1 .thanks-hldr .submit-hldr aside { padding-bottom: 50px;}
+
+	.thanks .sec-1 .thanks-hldr .submit-hldr article { max-width: 100%!important;}
+	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:first-child .parent input[type="text"] { 
+		width: calc(100% - 95px)!important; 
+	}
+	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li .parent h5 { font-size: 25px!important;}
+	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:nth-child(2) .parent select { width: calc(100% - 290px)!important; }
+	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:nth-child(4) .parent input[type="text"] { width: calc(100% - 265px)!important; }
+	.thanks .sec-1 .thanks-hldr { padding: 0px 20px!important; max-width: 100%!important;}
+
+	.thanks .sec-1 .thanks-hldr .parent article{ width: 100%!important; padding-top: 40px!important; padding-right: 0px!important; padding-bottom: 75px!important;}
+	.thanks .sec-1 .thanks-hldr .parent aside {  width: 100%!important; max-width: 500px!important; margin: 0 auto!important;}
+	.thanks .sec-1 .thanks-hldr .parent article ul li .blue-btn { padding-right: 0px!important; width: 100%!important;}
+	
+	.thanks .sec-1 .thanks-hldr .parent article ul li:first-child { width: 100%!important; margin-bottom: 40px; padding-right: 0px!important;}
+	.thanks .sec-1 .thanks-hldr .parent article ul { justify-content: center!important;}
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+	header .header-hldr aside { max-width: 140px!important; width: 100%;}
+	header .mobile-btns ul li div a { font-size: 14px!important; padding: 7px 15px!important;}
+
+
+
+	/*HOME*/
+	.home .sec-1 .home-carousel .item .hldr aside { width: 275px!important;}
+	.home .sec-1 .home-carousel .item .hldr article { max-width: calc(100% - 275px)!important; min-height: 485px!important;}
+	.home .sec-1 .home-carousel .item .hldr aside img { position: absolute; bottom: 0;}
+	.build-hope .school { left: 80px!important; bottom: 30px!important; width: 120px!important;}
+	.build-hope .star {left: 20px!important;}
+	.build-hope .globe { width: 100px!important;}
+	.card-section .mainlist > li { width: 100%!important; margin-bottom: 50px;}
+	.card-section .mainlist{ padding: 0px 60px!important;}
+
+
+	.about .animated-des.lblue { min-height: calc(100vh - 91px)!important}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/*PRE-MOBILEs*/
+
+
+@media only screen and (max-width: 650px){
+	header .header-hldr aside { max-width: 100%!important; padding-left: 50px!important;}
+	header .header-hldr aside img { width: auto!important;}
+	.home .sec-1 .logo-hldr { position: relative!important; max-width: 100%!important; top: 0!important; left: 0!important; padding-top: 30px!important; }
+	.home .sec-1 .logo-hldr img { width: 180px!important; display: block; max-width: 100%; margin: 0 auto!important; }
+	.home .sec-1 .home-carousel .item .floatings-list { display: none!important;}
+	.home .sec-1 .home-carousel .item .hldr { padding-top: 30px!important;}
+	.home .sec-1 .home-carousel .item .hldr article { min-height: auto!important; max-width: 100%!important; padding-top: 0px!important; padding-left: 0px!important; padding-right: 0px!important;}
+	.home .sec-1 .home-carousel .item .hldr aside img { position: relative!important; width: auto!important; margin: 0 auto; display: block!important; max-width: 100%!important;}
+	.home .sec-1 .home-carousel .item .hldr aside { width: 100%!important; right: auto!important; padding: 0px 40px; padding-top: 20px;}
+	.build-hope .content-hldr {     padding: 130px 0px 125px!important; }
+}
+
+
+/*MOBILEs*/
+
+@media only screen and (max-width: 600px){
+
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+	header .header-hldr aside img { width: 120px!important}
+	header .mobile-btns ul li { width: 100%!important; padding-right: 0px!important; text-align: right!important}
+	header .mobile-btns ul li div a { font-size: 12px!important; padding: 5px 15px!important; width: 135px!important;  text-align: center!important;}
+	header .burger span { width: 30px!important; margin-bottom: 5px!important;}
+	header .burger span:last-of-type { margin-bottom: 0px!important;}
+	header .mobile-btns ul li { margin-bottom: 7px!important;}
+	header .mobile-btns ul li:last-child { margin-bottom: 0px!important;}
+
+
+	/*FONTS*/
+	.sec-title, .about .sec-1 .img-bckground .hldr .hero-text h4, .about .sec-1 .img-bckground .hldr .hero-pop h4 { font-size: 35px!important;}
+	.card-section .mainlist > li .item article h4, .exp-inner1 .sec-1 .hldr article h4, .exp-inner1 .sec-2 .con-hldr .future .main-hldr > article h4, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .hldr h4, .exp-page .sec-1 .btm .main-list li h4 { font-size: 25px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .hldr h4{ line-height: 39px!important; }
+	.about .sec-1 .animated-des .hero-text h4, .about .sec-1 .abt-column ul li h4 { font-size: 30px!important; line-height: 40px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent input[type="text"], .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in input[type="text"], .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li select { font-size: 20px!important;}
+	.exp-inner1 .sec-2 .btm-list a, .exp-inner1 .sec-2 .btm-list p { font-size: 18px!important;}
+
+
+	/*home*/
+	.build-hope .star { bottom: auto!important; top: 30px!important;}
+	.card-section .mainlist { padding: 0px 20px!important;}
+	.card-section .mainlist > li .item article { padding: 20px!important;}
+	.card-section .mainlist > li .item article .btns-card a {display: block!important; margin-right: 0px!important; margin-bottom: 15px!important;}
+	.card-section .mainlist > li .item article .btns-card a:last-of-type { margin-bottom: 0px!important; }
+	.card-section .mainlist > li .item article ul > li:last-child .parent .children { width: 100%!important; margin-bottom: 5px; text-align: center;}
+	.how-it-works { padding: 50px 0px 100px!important;}
+	.how-it-works .hldr .btns-hldr a { display: block!important; margin-right: 0px!important; margin-bottom: 10px;}
+	.how-it-works .hldr .btns-hldr a:last-of-type { margin-bottom: 0px;}
+	.how-it-works .hldr .btns-hldr{ margin-top: 20px!important;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li ul li { width: 100%!important; text-align: center; padding: 5px 0px;}
+	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li:nth-child(2) ul li:first-child { padding: 5px 0px!important;}
+
+	footer .footer-hldr .cred-list li { width: 100%!important; padding-right: 0px!important; text-align: center;}
+	footer .footer-hldr .cred-list li::after { display: none!important;}
+	footer .footer-hldr .social-list  { width: 100%!important}
+
+
+	
+	.about .sec-1 .iwant { margin-top: 40px!important;}
+	.about .sec-1 .animated-des.bg-green .floating-list.active li:nth-child(1), .about .sec-1 .animated-des.bg-green .floating-list.active li:nth-child(2) { width: 80px!important;}
+	.about .animated-des.bg-green .floating-list li:nth-child(3) { width: 90px!important;}
+	.about .sec-1 .animated-des.bg-green .floating-list.active li:nth-child(4){ width: 100px!important;}
+	.about .sec-1 .animated-des.bg-green .floating-list.active li:nth-child(5) { width: 110px!important;}
+	.about .sec-1 .animated-des { padding: 150px 0px 265px!important;}
+
+
+
+
+	.about .animated-des.bg-orange .floating-list li:nth-child(7), .about .animated-des.bg-orange .floating-list.active li:nth-child(2), .about .sec-1 .animated-des.bg-orange .floating-list.active li:nth-child(5) { display: none!important;}
+	.about .animated-des.bg-orange .floating-list li:nth-child(8) { width: 110px!important; top: 40px!important;}
+	.about .animated-des.bg-orange .floating-list li:nth-child(6) { width: 85px!important; top: 20px!important;}
+	.about .animated-des.bg-orange .floating-list li:nth-child(1) { right: 20px!important; width: 90px!important;}
+
+	.about .sec-1 .animated-des.bg-orange { padding: 125px 0px 240px!important; }
+
+
+	.about .animated-des.lblue { padding: 70px 0px!important; min-height: auto!important;}
+
+	.about .sec-1 .img-bckground .hldr .hero-pop { max-width: 100%!important;}
+	.about .sec-1 .img-bckground .hldr.about-pop { padding: 60px 20px!important;}
+
+
+	.experience-initial .card-section { padding: 50px 0px!important;}
+	.experience-initial .sec-1 { padding: 80px 0px!important;}
+
+
+	.exp-inner1 .sec-1 .hldr article { max-width: 100%!important;     padding: 40px 20px!important; }
+
+	.exp-inner1 .sec-1 .hldr article .plist li { padding-left: 20px!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type ul li:first-child, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type ul li:nth-child(2) { padding-left: 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type aside { position: relative!important; top: 0!important; left: 0!important; margin: 0 auto; margin-bottom: 25px;}
+
+	
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent .children { padding-left: 0px!important; width: 100%!important; margin-top: 20px; text-align: right;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent { flex-direction: row-reverse!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent input[type="text"] { width: 100%!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent h6 { padding-right: 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent h6 { padding-left: 0px!important; margin-top: 20px!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li:first-child { padding-right: 0px!important; width: 100%!important; text-align: center; margin-bottom: 15px;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in .btn-hldr { padding-left: 0px!important; width: 100%!important; margin-top: 15px!important; text-align: right!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li:nth-child(2) { padding-right: 0px!important; width: 100%!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li:nth-child(3) { padding-right: 0px!important; width: 100%!important;  text-align: center; margin-top: 15px;}
+
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in input[type="text"] { width: 100%!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li select { width: 100%!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in h5 { padding-right: 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside img { max-width: 140px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside { min-height: 145px!important; max-height: 145px!important;}
+	.exp-inner1 .sec-1 { padding-top: 0px!important;}
+	
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > article { max-width: 100%!important; padding: 40px 20px!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-nav .owl-prev { left: 20px!important;}
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-nav .owl-next { right: 20px!important;}
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-nav > div { width: 20px!important; height: 44px!important; background-size: 20px 44px!important;}
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-dots { bottom: 5px!important;}
+	.exp-inner1 .sec-2 .con-hldr .faq .main-hldr { max-width: 100%!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .faq .main-hldr { padding-bottom: 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .icon-hldr img{ width: 110px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list > li { padding-bottom: 100px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list > li::after { height: 70px!important;}
+
+	.exp-page .sec-1 .top .hldr  { padding: 0px 20px!important;}
+	.exp-page .sec-1 .btm { padding: 30px 20px!important;}
+	.exp-page .card-section { padding: 0px 20px!important;}
+	.exp-page .sec-1 .top .hldr ul li .parent .children:nth-of-type(odd) { padding-right: 0px!important;}
+	.exp-page .sec-1 .top .hldr ul li .parent .children:nth-of-type(even) { padding-left: 0px!important; }
+	.exp-page .sec-1 .top .hldr ul li .parent .children { width: 100%!important; margin-bottom: 25px;}
+	.exp-page .sec-1 .top { padding: 50px 0px!important;}
+	.exp-page .sec-1 .btm .main-list > li { width: 100%!important}
+	.exp-page .sec-1 .btm .main-list > li > ul > li { width: 100%!important; padding-right: 0px!important; margin-bottom: 8px;}
+	.exp-page .sec-1 .btm .main-list { text-align: center;}
+
+
+	.thanks .sec-1 .thanks-hldr .submit-hldr aside h4, .thanks .sec-1 .thanks-hldr .parent article h4 { font-size: 25px!important; line-height: 40px!important;}
+
+	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li .parent h5 { width: 100%!important; font-size: 20px!important; margin-bottom: 5px;}
+
+	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:first-child .parent input[type="text"], .thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:nth-child(2) .parent select, .thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li .parent input[type="text"], .thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:nth-child(4) .parent input[type="text"] { width: 100%!important;}
+
+}
+
+
+@media only screen and (max-width: 375px){
+	header .header-hldr aside { padding-left: 0px!important; max-width: 130px!important; margin: 0 auto!important;}
+	header .header-hldr aside img { width: 100%!important;}
+	header .mobile-btns { position: fixed!important; width: 100%!important; left: 0!important; bottom: 0!important; right: auto!important; background: white;     transform: translate(0, 0)!important; top: auto!important;}
+
+
+}
+
+
+.home { overflow: hidden;}
