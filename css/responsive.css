@@ -82,7 +82,7 @@
 	.wrapper, footer .footer-hldr { padding: 0px 20px!important; max-width: 100%!important;}
 
 
-	header { position: relative!important;}
+	header { position: relative!important; background: #fff}
 	header .header-hldr .o-hide { opacity: 1!important;}
 	header .header-hldr .nav-list { display: none!important;}
 	.mobile-btns { display: block!important; }
@@ -357,6 +357,9 @@
 
 	.about .sec-1 .img-bckground.video-bckground .hldr video { margin-bottom: 30px;}
 	.about .sec-1 .video-bckground .hldr { background: #81cbeb;}
+
+
+	.sec-list-hldr .dnow { width: 100px!important;}
 
 }	
 

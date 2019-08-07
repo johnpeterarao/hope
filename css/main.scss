@@ -254,6 +254,22 @@ header {  padding: 8px 0px;     position: absolute; width: 100%; left: 0; top: 0
 
 }
 
+.exp-inner-nav {
+    .header-hldr {
+        .nav-list {
+            > li {
+                a { color: $dblue;}
+            }
+
+
+            .bg-border-violet { border: 2px solid $dblue; }
+            .bg-blue { color: $white; border: 2px solid $blue;}
+
+        }
+    }
+    
+}
+
 
 
 
@@ -285,7 +301,7 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
 
 
 
-.sec-list-hldr { position: fixed; top: 0; width: 100%; left: 0; height: 100%; z-index: 99;  background: $white; transform: translate(-100%, 0); transition: transform 1s ease-in-out;   
+.sec-list-hldr { position: fixed; top: 0; width: 100%; left: 0; height: 100%; z-index: 99;  background: $white; transform: translate(-100%, 0); transition: transform 1s ease-in-out;  opacity: 0; 
     .top { background: $blue; @extend .flex; justify-content: space-between; padding: 0px 20px; align-items: center; height: 12.5vh;
         a:first-of-type {
             img { width: auto; height: 9.5vh}
@@ -323,10 +339,13 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
         }
     }
 
+
+    .dnow {position: absolute; bottom: 2.57%; right: 3.42%;}
+
 }
 
 
-.sec-list-hldr.active { display: block; transform: translate( 0, 0); /* animation: slide-right 1s ease-in-out forwards; */
+.sec-list-hldr.active { opacity: 1; display: block; transform: translate( 0, 0); /* animation: slide-right 1s ease-in-out forwards; */
     .scndry-list {
         li { animation: slide-right 1s ease-in-out forwards; }
     }

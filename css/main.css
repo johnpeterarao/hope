@@ -253,6 +253,14 @@ header {
   header .about-pages .for-about {
     display: none; }
 
+.exp-inner-nav .header-hldr .nav-list > li a {
+  color: #003462; }
+.exp-inner-nav .header-hldr .nav-list .bg-border-violet {
+  border: 2px solid #003462; }
+.exp-inner-nav .header-hldr .nav-list .bg-blue {
+  color: #fff;
+  border: 2px solid #1e7dbd; }
+
 header.active {
   position: fixed;
   background: #fff;
@@ -285,7 +293,8 @@ header.active {
   z-index: 99;
   background: #fff;
   transform: translate(-100%, 0);
-  transition: transform 1s ease-in-out; }
+  transition: transform 1s ease-in-out;
+  opacity: 0; }
   .sec-list-hldr .top {
     background: #1e7dbd;
     justify-content: space-between;
@@ -333,8 +342,13 @@ header.active {
         width: auto; }
     .sec-list-hldr .btm ul li:last-child {
       padding-right: 0px; }
+  .sec-list-hldr .dnow {
+    position: absolute;
+    bottom: 2.57%;
+    right: 3.42%; }
 
 .sec-list-hldr.active {
+  opacity: 1;
   display: block;
   transform: translate(0, 0);
   /* animation: slide-right 1s ease-in-out forwards; */ }
