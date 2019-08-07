@@ -58,6 +58,49 @@
               </ul>
             </div>
 
+            <div class="sec-list-hldr">
+              <div class="top">
+                <a href=""><img src="images/logo.png"></a>
+                <a href="" class="close-btn"><img src="images/close.png"></a>
+              </div>
+              <ul class="pad-0 listn scndry-list">
+                <li>
+                  <a href="">About Us</a>
+                </li>
+                <li>
+                  <a href="">Experiences</a>
+                </li>
+                <li>
+                  <a href="">Mechanics</a>
+                </li>
+                <li>
+                  <a href="">Submit Hope</a>
+                </li>
+                <li>
+                  <a href="">Contact Us</a>
+                </li>
+                <li>
+                  <a href="">Generation Hope</a>
+                </li>
+              </ul>
+              <div class="btm">
+                <ul class="pad-0 listn">
+                  <li>
+                    <a href=""><img src="images/instagram-circle.png"></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/facebook-circle.png"></a>
+                  </li>
+                  <li>
+                    <a href=""><img src="images/youtube-circle.png"></a>
+                  </li>
+                </ul>
+              </div>
+
+
+
+            </div>
+
             <div class="burger">
               <span></span>
               <span></span>
@@ -68,6 +111,7 @@
           
         </div>
       </header>
+
       <div class="home">
         <section class="sec-1">
           <div class="wrapper">
@@ -370,7 +414,7 @@
         <div class="acc-section">
           <ul class="pad-0 listn">
             <li>
-                <section class="donate">
+                <section class="donate acc-tog active" id="donate">
                   <span class="top-bg"></span>
                   <div class="body">
                       <div class="top">
@@ -458,9 +502,14 @@
                       
                   </div>
                 </section>
+                <div class="btm-title donate no-border">
+                  <div class="wrapper">
+                    <a href="">Donate Now</a>
+                  </div>
+                </div>
             </li>
             <li>
-              <section class="mechanics">
+              <section class="mechanics acc-tog">
                 <span class="top-bg"></span>
                   <div class="body">
                       <div class="top">
@@ -514,16 +563,21 @@
                           <img src="images/m2.png">
                         </li>
                         <li>
-                          <img src="images/m3.png">
+                          <a href=""><img src="images/m3.png"></a>
                         </li>
                       </ul>
                       
                   </div>
               </section>
+              <div class="btm-title mech">
+                  <div class="wrapper">
+                    <a href="">Mechanics</a>
+                  </div>
+              </div>
             </li>
 
             <li>
-              <section class="mechanics terms">
+              <section class="mechanics terms acc-tog">
                 <span class="top-bg"></span>
                   <div class="body">
                       <div class="top">
@@ -576,15 +630,20 @@
                           <img src="images/terms2.png">
                         </li>
                         <li>
-                          <img src="images/mechanics.png">
+                          <a href=""><img src="images/mechanics.png"></a>
                         </li>
                         <li>
-                          <img src="images/m3.png">
+                          <a href=""><img src="images/m3.png"></a>
                         </li>
                       </ul>
                       
                   </div>
               </section>
+              <div class="btm-title terms">
+                  <div class="wrapper">
+                    <a href="">Terms and Conditions</a>
+                  </div>
+                </div>
             </li>
           </ul>
         </div>
@@ -808,6 +867,35 @@
 
 
     });
+
+
+
+    
+
+    $('.btm-title a').on('click', function(){
+      /*$('.acc-tog').removeClass("active");*/
+      $(this).parent().parent().prev().toggleClass('active');
+      
+      $(this).parent().parent().toggleClass('no-border');
+      return false;
+    });
+
+
+    $('header .burger').on('click', function(){
+      $('.sec-list-hldr').addClass("active");
+    });
+
+    $('.sec-list-hldr .top a.close-btn').on('click', function(){
+      $('.sec-list-hldr').removeClass("active");
+      return false;
+    });
+
+
+    var menuList = $('.sec-list-hldr ul.scndry-list li');
+
+    for (i = 0; i < menuList.length; i++ ){
+      $(menuList[i]).css("animation-delay", (0.5 + (i / 3)) + "s")
+    }
 
 
 

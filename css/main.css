@@ -128,7 +128,7 @@ input, select, textarea, button {
   right: 10px;
   top: 10px; }
 
-.flex, header .header-hldr, header .header-hldr .nav-list, header .header-hldr .nav-list > .link-hldr > ul, header .mobile-btns ul, .home .sec-1 .home-carousel .item .hldr, .exp-page .sec-1 .top .hldr ul li .parent, .exp-page .sec-1 .top .hldr ul li .parent .children, .exp-page .sec-1 .btm .main-list, .exp-page .sec-1 .btm .main-list li > ul, .about .sec-1 .abt-column .hldr, .about .sec-1 .abt-column ul, .about .sec-1 .abt-column ul li aside, .about .sec-1 .img-bckground .hldr .hero-pop ul, .about .sec-1 .animated-des, .exp-inner1 .sec-1 .hldr, .exp-inner1 .sec-1 .hldr article .stats li .parent, .exp-inner1 .sec-2 .tab-list, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type aside, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in, .exp-inner1 .sec-2 .con-hldr .future .main-hldr, .exp-inner1 .sec-2 .con-hldr .faq .main-hldr, .exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul, .exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul li .item, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent.rev, .exp-inner1 .sec-2 .btm-list, .thanks .sec-1 .thanks-hldr .parent, .thanks .sec-1 .thanks-hldr .parent article ul, .thanks .sec-1 .thanks-hldr .submit-hldr, .card-section .mainlist, .card-section .mainlist > li .item article ul > li .parent, .donate .body .mid .hldr .frm-list li .parent, .donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item .btn-inc, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:nth-of-type(2), .how-it-works .hldr ul, .mechanics .body .mid .hldr ul li .parent, .mechanics.terms .body .mid .hldr ul li .parent, footer .footer-hldr > ul.main-list, footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list, footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li ul, footer .footer-hldr .social-list, footer .footer-hldr .social-list li aside, footer .footer-hldr .cred-list {
+.flex, header .header-hldr, header .header-hldr .nav-list, header .header-hldr .nav-list > .link-hldr > ul, header .mobile-btns ul, .sec-list-hldr .top, .sec-list-hldr ul.scndry-list li, .sec-list-hldr .btm, .sec-list-hldr .btm ul, .home .sec-1 .home-carousel .item .hldr, .exp-page .sec-1 .top .hldr ul li .parent, .exp-page .sec-1 .top .hldr ul li .parent .children, .exp-page .sec-1 .btm .main-list, .exp-page .sec-1 .btm .main-list li > ul, .about .sec-1 .abt-column .hldr, .about .sec-1 .abt-column ul, .about .sec-1 .abt-column ul li aside, .about .sec-1 .img-bckground .hldr .hero-pop ul, .about .sec-1 .animated-des, .exp-inner1 .sec-1 .hldr, .exp-inner1 .sec-1 .hldr article .stats li .parent, .exp-inner1 .sec-2 .tab-list, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type aside, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in, .exp-inner1 .sec-2 .con-hldr .future .main-hldr, .exp-inner1 .sec-2 .con-hldr .faq .main-hldr, .exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul, .exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul li .item, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent.rev, .exp-inner1 .sec-2 .btm-list, .thanks .sec-1 .thanks-hldr .parent, .thanks .sec-1 .thanks-hldr .parent article ul, .thanks .sec-1 .thanks-hldr .submit-hldr, .card-section .mainlist, .card-section .mainlist > li .item article ul > li .parent, .donate .body .mid .hldr .frm-list li .parent, .donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item .btn-inc, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:nth-of-type(2), .how-it-works .hldr ul, .mechanics .body .mid .hldr ul li .parent, .mechanics.terms .body .mid .hldr ul li .parent, footer .footer-hldr > ul.main-list, footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list, footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li ul, footer .footer-hldr .social-list, footer .footer-hldr .social-list li aside, footer .footer-hldr .cred-list {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -168,7 +168,7 @@ header {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 3; }
+  z-index: 9; }
   header .header-hldr {
     justify-content: space-between;
     align-items: center; }
@@ -275,6 +275,71 @@ header.active {
       background: #1e7dbd;
       color: #fff;
       transition: background 0.5s, border 0.5s, color .5s; }
+
+.sec-list-hldr {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  z-index: 99;
+  background: #fff;
+  transform: translate(-100%, 0);
+  transition: transform 1s ease-in-out; }
+  .sec-list-hldr .top {
+    background: #1e7dbd;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    height: 12.5vh; }
+    .sec-list-hldr .top a:first-of-type img {
+      width: auto;
+      height: 9.5vh; }
+    .sec-list-hldr .top a img {
+      width: auto; }
+  .sec-list-hldr ul.scndry-list li {
+    height: 12.5vh;
+    align-items: center;
+    padding: 0px 40px;
+    transform: translate(-100%, 0); }
+    .sec-list-hldr ul.scndry-list li a {
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-family: "galanogrotesqueal-altdemobold", Arial, sans-serif;
+      color: #fff;
+      text-decoration: none; }
+  .sec-list-hldr ul.scndry-list li:first-child {
+    background: #fecf07; }
+  .sec-list-hldr ul.scndry-list li:nth-child(2) {
+    background: #f68720; }
+  .sec-list-hldr ul.scndry-list li:nth-child(3) {
+    background: #76499d; }
+  .sec-list-hldr ul.scndry-list li:nth-child(4) {
+    background: #29a872; }
+  .sec-list-hldr ul.scndry-list li:nth-child(5) {
+    background: #ef4351; }
+  .sec-list-hldr ul.scndry-list li:nth-child(6) {
+    background: #227ebd; }
+  .sec-list-hldr ul.scndry-list li:nth-child(7) {
+    background: #227ebd; }
+  .sec-list-hldr .btm {
+    background: #81cbeb;
+    height: 12.5vh;
+    padding: 0px 40px;
+    align-items: center; }
+    .sec-list-hldr .btm ul li {
+      padding-right: 25px; }
+      .sec-list-hldr .btm ul li img {
+        width: auto; }
+    .sec-list-hldr .btm ul li:last-child {
+      padding-right: 0px; }
+
+.sec-list-hldr.active {
+  display: block;
+  transform: translate(0, 0);
+  /* animation: slide-right 1s ease-in-out forwards; */ }
+  .sec-list-hldr.active .scndry-list li {
+    animation: slide-right 1s ease-in-out forwards; }
 
 .home {
   /* .card-section { padding-bottom: 70px;} */ }
@@ -712,6 +777,9 @@ header.active {
     margin-top: 40px; }
     .about .sec-1 .animated-des.center-image .hero-text .iwant a {
       color: #81cbeb; }
+  .about .sec-1 .video-bckground .hldr {
+    height: 100vh;
+    overflow: hidden; }
   .about .sec-1.v-background {
     background: #76489d; }
   .about .animated-des.bg-green {
@@ -1686,6 +1754,14 @@ header.active {
             width: auto;
             max-width: 100%; }
 
+video {
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
 .build-hope .content-hldr {
   max-width: 61%;
   width: 100%;
@@ -1818,7 +1894,9 @@ header.active {
     .donate .body .mid .hldr {
       max-width: 880px;
       width: 100%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      z-index: 3;
+      position: relative; }
       .donate .body .mid .hldr .frm-list li {
         margin-bottom: 30px; }
         .donate .body .mid .hldr .frm-list li .parent {
@@ -2002,9 +2080,12 @@ header.active {
     background: #003462; }
   .mechanics .body .mid {
     padding: 65px 0px;
-    background: #1e7dbd; }
+    background: #1e7dbd;
+    pointer-events: none; }
     .mechanics .body .mid .hldr {
-      padding: 0px 18.1%; }
+      padding: 0px 18.1%;
+      z-index: 3;
+      pointer-events: none; }
       .mechanics .body .mid .hldr ul li {
         border-bottom: 2px solid #fff; }
         .mechanics .body .mid .hldr ul li .parent .children h4 {
@@ -2030,8 +2111,7 @@ header.active {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
-    pointer-events: none; }
+    width: 100%; }
     .mechanics .body .float-list li {
       position: absolute; }
       .mechanics .body .float-list li img {
@@ -2094,8 +2174,7 @@ header.active {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
-    pointer-events: none; }
+    width: 100%; }
     .mechanics.terms .body .float-list li {
       position: absolute; }
       .mechanics.terms .body .float-list li img {
@@ -2124,6 +2203,41 @@ header.active {
 
 .progressbar.blue span {
   background: #81cbeb; }
+
+.btm-title {
+  padding: 20px 0px;
+  text-align: center;
+  border: 3px solid #003462;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px; }
+  .btm-title a {
+    font-family: "galanogrotesque-s-semi_bold", Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none; }
+
+.acc-section ul li .acc-tog {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s; }
+.acc-section ul li .acc-tog.active {
+  height: auto;
+  overflow: hidden;
+  transition: height 0.5s; }
+.acc-section ul li .no-border.btm-title {
+  border-top: 0px; }
+.acc-section ul li:last-child .btm-title {
+  border-bottom: 3px solid #003462; }
+
+.btm-title.donate {
+  background: #ffcf01; }
+
+.btm-title.mech {
+  background: #1e7dbd; }
+
+.btm-title.terms {
+  background: #009849; }
 
 footer {
   background: #81cbeb;
@@ -2284,6 +2398,11 @@ footer {
   to {
     transform: translate(0, 0);
     opacity: 1; } }
+@keyframes slide-right {
+  0% {
+    transform: translate(-100%, 0); }
+  100% {
+    transform: translate(0, 0); } }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   /* CLASS GO HERE */ }
 

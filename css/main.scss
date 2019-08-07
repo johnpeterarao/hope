@@ -184,7 +184,7 @@ $clouds: #ecf0f1;
 
 
 
-header {  padding: 8px 0px;     position: absolute; width: 100%; left: 0; top: 0; z-index: 3; 
+header {  padding: 8px 0px;     position: absolute; width: 100%; left: 0; top: 0; z-index: 9; 
     .header-hldr { @extend .flex; justify-content: space-between; align-items: center;
         aside { max-width: 170px;
             img { width: 100%; }
@@ -280,6 +280,67 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
 
     }
 }
+
+
+
+
+
+.sec-list-hldr { position: fixed; top: 0; width: 100%; left: 0; height: 100%; z-index: 99;  background: $white; transform: translate(-100%, 0); transition: transform 1s ease-in-out;   
+    .top { background: $blue; @extend .flex; justify-content: space-between; padding: 0px 20px; align-items: center; height: 12.5vh;
+        a:first-of-type {
+            img { width: auto; height: 9.5vh}
+        }
+
+        a {
+            img { width: auto;}
+        }
+
+    }
+
+
+    ul.scndry-list {
+        li { height: 12.5vh; @extend .flex; align-items: center; padding: 0px 40px; transform: translate(-100%, 0);
+            a { font-size: 18px; letter-spacing: 2px; font-family: $fontnav; color: $white; text-decoration: none;}
+        }
+
+        li:first-child { background: #fecf07;}
+        li:nth-child(2) { background: #f68720;}
+        li:nth-child(3) { background: #76499d;}
+        li:nth-child(4) { background: #29a872;}
+        li:nth-child(5) { background: #ef4351;}
+        li:nth-child(6) { background: #227ebd;}
+        li:nth-child(7) { background: #227ebd;}
+
+    }
+
+    .btm { background: $lblue; height: 12.5vh; padding: 0px 40px; @extend .flex; align-items: center;
+        ul { @extend .flex;
+            li { padding-right: 25px;
+                img { width: auto;}
+            }
+
+            li:last-child { padding-right: 0px;}
+        }
+    }
+
+}
+
+
+.sec-list-hldr.active { display: block; transform: translate( 0, 0); /* animation: slide-right 1s ease-in-out forwards; */
+    .scndry-list {
+        li { animation: slide-right 1s ease-in-out forwards; }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -612,9 +673,16 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
         }
 
 
+        .video-bckground { 
+            .hldr { height: 100vh; overflow: hidden; }
+        }
+
+
         
 
     }
+
+
 
     .sec-1.v-background { background: #76489d; }
 
@@ -1335,8 +1403,14 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
 
 
 
-
-
+video {
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 
@@ -1436,7 +1510,7 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
     .body { background: url(../images/stars.png) #ffcf01 no-repeat; padding-top: 45px; background-position: center; 
 
         .mid { padding: 65px 0px; background: url(../images/paper.png);
-            .hldr { max-width: 880px; width: 100%; margin: 0 auto; 
+            .hldr { max-width: 880px; width: 100%; margin: 0 auto;  z-index: 3; position: relative;
                 .frm-list {
                     li { margin-bottom:30px;
                         .parent { @extend .flex;  align-items: center;
@@ -1563,8 +1637,8 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
 
         .top::after { position: absolute; content: ''; height: 3px; width: 100%; left: 0; bottom: 13px; background: #003462; }
         
-        .mid { padding: 65px 0px; background: #1e7dbd; 
-            .hldr {     padding: 0px 18.1%;
+        .mid { padding: 65px 0px; background: #1e7dbd; pointer-events: none;
+            .hldr {     padding: 0px 18.1%; z-index: 3; pointer-events: none;
                 ul {
                     li {  border-bottom: 2px solid $white;
                         .parent { @extend .flex;
@@ -1585,7 +1659,7 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
             }
         }
 
-        .float-list{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; pointer-events: none;
+        .float-list{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; 
             li { position: absolute;
                 img { width: auto;}
             }
@@ -1630,7 +1704,7 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
             }
         }
 
-        .float-list{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; pointer-events: none;
+        .float-list{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; 
             li { position: absolute;
                 img { width: auto;}
             }
@@ -1643,6 +1717,8 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
 
     }
 }
+
+
 
 
 
@@ -1668,13 +1744,29 @@ header.active { position: fixed; background: $white; animation: nav-down .5s eas
 
 
 
+.btm-title { padding: 20px 0px;  text-align: center; border: 3px solid $dblue; border-left: 0px; border-right: 0px; border-bottom: 0px;
+    a { font-family: $semibold; font-size: 20px; color: $white; text-decoration: none; }
+}
 
 
+.acc-section {
+    ul {
+        li {
+            .acc-tog { height: 0; overflow: hidden; transition: height 0.5s;}
+            .acc-tog.active { height: auto; overflow: hidden; transition: height 0.5s;}
+            
+            .no-border.btm-title { border-top: 0px;}
 
+        }
 
-
-
-
+        li:last-child {
+            .btm-title { border-bottom: 3px solid $dblue; }
+        }
+    }
+}
+.btm-title.donate { background: #ffcf01;}
+.btm-title.mech { background: #1e7dbd;}
+.btm-title.terms { background: #009849;}
 
 
 
@@ -1836,6 +1928,18 @@ footer { background: $lblue; border-top: 2px solid $dblue; padding: 100px 0px 40
     to {
         transform: translate(0, 0);
         opacity: 1;
+    }
+}
+
+
+@keyframes slide-right {
+    0% {
+        transform: translate(-100%, 0);
+        
+    }
+    100% {
+        transform: translate(0, 0);
+
     }
 }
 

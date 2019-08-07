@@ -9,11 +9,16 @@
 	.about .sec-1 .img-bckground .hldr .hero-text h4, .about .sec-1 .img-bckground .hldr .hero-pop h4 { font-size: 40px!important;}
 
 	.thanks .sec-1 .thanks-hldr .submit-hldr aside h4, .thanks .sec-1 .thanks-hldr .parent article h4 {font-size: 30px!important; line-height: 50px!important;}
+	.mechanics.terms .body .mid .hldr ul li .parent .children h5{ font-size: 25px!important;}
 
 
 	/*HOME*/
 	footer .footer-hldr > ul.main-list > li:nth-child(2) { padding-left: 45px!important;}
 	.about .sec-1 .abt-column { max-width: 900px!important; padding: 0px 20px;}
+
+	.donate .float-list li:first-child { left: 1%!important; top: 17%!important;}
+	.donate .float-list li:nth-child(2) { bottom: 1%!important; right: 2%!important;}
+
 
 }
 
@@ -63,6 +68,13 @@
 	.thanks .sec-1 .thanks-hldr .parent aside { width: 500px!important;}
 	.thanks .sec-1 .thanks-hldr .parent article { width: calc(100% - 500px)!important}
 
+
+	.mechanics .body .mid .hldr  {padding: 0px 10%!important; }
+	.mechanics .body .float-list li:first-child{ left: 2%!important; width: 140px!important;}
+	.mechanics .body .float-list li img { width: 100%!important;} 
+	.mechanics .body .float-list li:nth-child(2) { left: 2%!important; width: 80px!important;}
+	.mechanics .body .float-list li:nth-child(3){ right: 2%!important; width: 110px!important;}
+
 }
 
 
@@ -78,6 +90,7 @@
 	.burger { display: block!important;}
 	.about-pages img { display: none!important;}
 	.about-pages .for-about { display: block!important;}
+	/*.sec-list-hldr { display: block!important;}*/
 
 
 	/*FONTS*/
@@ -297,6 +310,54 @@
 	
 	.thanks .sec-1 .thanks-hldr .parent article ul li:first-child { width: 100%!important; margin-bottom: 40px; padding-right: 0px!important;}
 	.thanks .sec-1 .thanks-hldr .parent article ul { justify-content: center!important;}
+
+	.donate .float-list { display: none!important;}
+
+
+
+	.donate .body .mid .hldr .frm-list li:first-child .children:nth-of-type(2) { max-width: 100%!important; width: 100%!important; text-align: center;}
+	.donate .body .mid .hldr .frm-list li:first-child { max-width: 540px; margin: 0 auto 30px; padding-left: 0px!important;}
+
+	.donate .body .mid .hldr .frm-list li:first-child .parent .children { margin-bottom: 20px;}
+	.donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children { width: 100%!important; padding-left: 0px!important;}
+	.donate .body .mid .hldr .frm-list li:nth-child(2) { padding-left: 0px!important; max-width: 730px; width: 100%; margin: 0 auto 30px;}
+	.donate .body .mid .hldr .frm-list li:nth-child(3), .donate .body .mid .hldr .frm-list li:nth-child(5) { max-width: 730px; width: 100%; margin: 0 auto 30px; }
+	.donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children:first-of-type { padding-right: 0px!important; margin-bottom: 30px;}
+	.donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children:first-of-type input[type="text"] {     width: calc(100% - 185px)!important; }
+	.donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children:last-of-type input[type="email"] {     width: calc(100% - 160px)!important; }
+	/*.donate .body .mid .hldr .frm-list li:nth-child(2) .parent .children:nth-of-type(2) {  }*/
+	.donate .body .mid .hldr .frm-list li:nth-child(2) .parent .children:nth-of-type(2) { max-width: 100%!important; width: calc(100% - 78px)!important;}
+
+	.donate .body .mid .hldr .frm-list li:first-child .parent .children { max-width: 100%!important;}
+	.donate .body .mid .hldr .frm-list li .parent input[type="text"], .donate .body .mid .hldr .frm-list li .parent select, .donate .body .mid .hldr .frm-list li .parent input[type="email"] { font-size: 25px!important;}
+	.donate .body .mid .hldr .frm-list li:nth-child(2) .parent .children, .donate .body .mid .hldr .frm-list li:nth-child(2) .parent .children:nth-of-type(2), .donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children:first-of-type input[type="text"], .donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children:last-of-type input[type="email"] { width: 100%!important;}
+	.donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type { padding-left: 0px!important;     max-width: 730px!important; }
+	.donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type span { position: relative!important; top: 0!important; transform: translate(0, 0)!important; }
+	.donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item input[type="text"] { max-width: 100%!important;}
+	.donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item .btn-inc { padding-left: 0px!important; max-width: 100%!important; text-align: center; justify-content: center!important; margin: 15px 0px;}
+
+	.donate .body .mid .hldr .frm-list li .parent p, .donate .body .mid .hldr .frm-list li .parent span { width: 100%!important;}
+
+	.donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:nth-of-type(2) { max-width: 730px!important;}
+	.donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:nth-of-type(2) input[type="text"] { max-width: 100%!important;}
+
+
+	.mechanics .body .mid .hldr { padding: 0px 5%!important;}
+
+	.mechanics .body .float-list li:first-child, .mechanics.terms .body .float-list li:nth-child(3), .mechanics .body .float-list li:nth-child(2){ display: none!important;}
+	.mechanics .body .float-list li:nth-child(3){ right: 2%!important; width: 110px!important;}
+
+	.mechanics.terms .body .float-list li:nth-child(4) { width: 120px!important;}
+
+	.about .sec-1 .video-bckground .hldr { height: auto!important; padding: 0px 0px 40px;}
+
+	.about .sec-1 .video-bckground .hldr video { position: relative!important; left: 0!important; top: 0!important; transform: translate(0, 0)!important; width: 100%!important;}
+
+	.about .sec-1 .img-bckground.video-bckground .hldr.about-pop { padding: 0px 0px 40px!important;}
+
+	.about .sec-1 .img-bckground.video-bckground .hldr video { margin-bottom: 30px;}
+	.about .sec-1 .video-bckground .hldr { background: #81cbeb;}
+
 }	
 
 
@@ -405,11 +466,11 @@
 
 @media only screen and (max-width: 500px){
 	header .header-hldr aside img { width: 120px!important}
-	header .mobile-btns ul li { width: 100%!important; padding-right: 0px!important; text-align: right!important}
-	header .mobile-btns ul li div a { font-size: 12px!important; padding: 5px 15px!important; width: 135px!important;  text-align: center!important;}
+	header .mobile-btns ul li {  padding-right: 0px!important; text-align: right!important}
+	header .mobile-btns ul li div a { font-size: 12px!important; padding: 5px 10px!important; width: 125px!important;  text-align: center!important; text-transform: uppercase;}
 	header .burger span { width: 30px!important; margin-bottom: 5px!important;}
 	header .burger span:last-of-type { margin-bottom: 0px!important;}
-	header .mobile-btns ul li { margin-bottom: 7px!important;}
+	header .mobile-btns ul li { margin-bottom: 7px!important;     width: 100%;}
 	header .mobile-btns ul li:last-child { margin-bottom: 0px!important;}
 
 
@@ -527,13 +588,32 @@
 
 	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:first-child .parent input[type="text"], .thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:nth-child(2) .parent select, .thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li .parent input[type="text"], .thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:nth-child(4) .parent input[type="text"] { width: 100%!important;}
 
+
+	.mechanics .body .mid .hldr ul li .parent .children:first-of-type { width: 45px!important;}
+	.mechanics .body .mid .hldr { padding: 0px 20px!important;}
+	.mechanics .body .mid .hldr ul li .parent .children:nth-of-type(2) { width: calc(100% - 45px)!important;}
+	.mechanics .body .mid { padding: 40px 0px!important;}
+
+	.donate .body .mid .hldr .frm-list li .parent input[type="text"], .donate .body .mid .hldr .frm-list li .parent select, .donate .body .mid .hldr .frm-list li .parent input[type="email"] { font-size: 20px!important;}
+
+	.sec-list-hldr ul.scndry-list li, .sec-list-hldr .btm { padding: 0px 20px!important;}
+
+
+	.about .sec-1 .img-bckground.video-bckground .hldr video { margin-bottom: 0px!important;}
+	.about .sec-1 .img-bckground.video-bckground .hldr .hero-text { padding: 40px 20px 0px!important; }
+
+	.about .sec-1 .img-bckground.video-bckground .hldr .hero-pop { margin-top: 30px; max-width: 90%!important;}
+
 }
 
 
 @media only screen and (max-width: 375px){
 	header .header-hldr aside { padding-left: 0px!important; max-width: 130px!important; margin: 0 auto!important;}
 	header .header-hldr aside img { width: 100%!important;}
-	header .mobile-btns { position: fixed!important; width: 100%!important; left: 0!important; bottom: 0!important; right: auto!important; background: white;     transform: translate(0, 0)!important; top: auto!important;}
+	header .mobile-btns { position: fixed!important; width: 100%!important; left: 0!important; bottom: 0!important; right: auto!important; background: white;     transform: translate(0, 0)!important; top: auto!important; padding: 10px 20px!important;}
+	header .mobile-btns ul { justify-content: space-between!important;}
+	header .mobile-btns ul li { width: auto!important;}
+
 
 
 }
