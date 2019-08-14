@@ -128,7 +128,7 @@ input, select, textarea, button {
   right: 10px;
   top: 10px; }
 
-.flex, header .header-hldr, header .header-hldr .nav-list, header .header-hldr .nav-list > .link-hldr > ul, header .mobile-btns ul, .sec-list-hldr .top, .sec-list-hldr ul.scndry-list li, .sec-list-hldr .btm, .sec-list-hldr .btm ul, .home .sec-1 .home-carousel .item .hldr, .exp-page .sec-1 .top .hldr ul li .parent, .exp-page .sec-1 .top .hldr ul li .parent .children, .exp-page .sec-1 .btm .main-list, .exp-page .sec-1 .btm .main-list li > ul, .about .sec-1 .abt-column .hldr, .about .sec-1 .abt-column ul, .about .sec-1 .abt-column ul li aside, .about .sec-1 .img-bckground .hldr .hero-pop ul, .about .sec-1 .animated-des, .exp-inner1 .sec-1 .hldr, .exp-inner1 .sec-1 .hldr article .stats li .parent, .exp-inner1 .sec-2 .tab-list, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type aside, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in, .exp-inner1 .sec-2 .con-hldr .future .main-hldr, .exp-inner1 .sec-2 .con-hldr .faq .main-hldr, .exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul, .exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul li .item, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent.rev, .exp-inner1 .sec-2 .btm-list, .thanks .sec-1 .thanks-hldr .parent, .thanks .sec-1 .thanks-hldr .parent article ul, .thanks .sec-1 .thanks-hldr .submit-hldr, .card-section .mainlist, .card-section .mainlist > li .item article ul > li .parent, .donate .body .mid .hldr .frm-list li .parent, .donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item .btn-inc, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:nth-of-type(2), .how-it-works .hldr ul, .mechanics .body .mid .hldr ul li .parent, .mechanics.terms .body .mid .hldr ul li .parent, footer .footer-hldr > ul.main-list, footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list, footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li ul, footer .footer-hldr .social-list, footer .footer-hldr .social-list li aside, footer .footer-hldr .cred-list {
+.flex, header .header-hldr, header .header-hldr .nav-list, header .header-hldr .nav-list > .link-hldr > ul, header .mobile-btns ul, .sec-list-hldr .top, .sec-list-hldr ul.scndry-list li, .sec-list-hldr .btm, .sec-list-hldr .btm ul, .home .sec-1 .home-carousel .item .hldr, .exp-page .sec-1 .top .hldr ul li .parent, .exp-page .sec-1 .top .hldr ul li .parent .children, .exp-page .sec-1 .btm .main-list, .exp-page .sec-1 .btm .main-list li > ul, .about .sec-1 .abt-column .hldr, .about .sec-1 .abt-column ul, .about .sec-1 .abt-column ul li aside, .about .sec-1 .img-bckground .hldr .hero-pop ul, .about .sec-1 .animated-des, .exp-inner1 .sec-1 .hldr, .exp-inner1 .sec-1 .hldr article .stats li .parent, .exp-inner1 .sec-2 .tab-list, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .form-type aside, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li > .parent .donate-type ul li .dparent, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul, .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in, .exp-inner1 .sec-2 .con-hldr .future .main-hldr, .exp-inner1 .sec-2 .con-hldr .faq .main-hldr, .exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul, .exp-inner1 .sec-2 .con-hldr .updates .hldr .top ul li .item, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent.rev, .exp-inner1 .sec-2 .btm-list, .thanks .sec-1 .thanks-hldr .parent, .thanks .sec-1 .thanks-hldr .parent article ul, .thanks .sec-1 .thanks-hldr .submit-hldr, .card-section .mainlist, .card-section .mainlist > li .item article ul > li .parent, .donate .body .mid .hldr .frm-list li .parent, .donate .body .mid .hldr .frm-list li:nth-child(3) .parent .children, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:first-of-type .item .btn-inc, .donate .body .mid .hldr .frm-list li:nth-child(4) .parent .children:nth-of-type(2), .how-it-works .hldr ul, .mechanics .body .mid .hldr ul li .parent, .mechanics.terms .body .mid .hldr ul li .parent, footer .footer-hldr > ul.main-list, footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list, footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li ul, footer .footer-hldr .social-list, footer .footer-hldr .social-list li aside, footer .footer-hldr .cred-list {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -476,7 +476,9 @@ header.active {
       max-width: 281px;
       z-index: 3; }
   .home .build-hope .content-hldr h3 {
-    color: #1e7dbd; }
+    color: #1e7dbd;
+    position: relative;
+    z-index: 3; }
 
 .experience-initial .sec-1 {
   background: #81cbeb;
@@ -592,7 +594,7 @@ header.active {
       .exp-page .sec-1 .btm .main-list li > ul > li:last-child {
         padding-right: 0px; }
 
-.experience .donate {
+.experience .acc-section {
   padding-bottom: 120px; }
 
 .about {
@@ -927,7 +929,8 @@ header.active {
         font-size: 18px;
         text-transform: uppercase;
         color: #fff;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        border-radius: 25px; }
 .exp-inner1 .sec-2 {
   padding: 100px 0px 170px; }
   .exp-inner1 .sec-2 .tab-list {
@@ -1067,14 +1070,31 @@ header.active {
         border: 2px solid #003462;
         border-top: 0px; }
         .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside {
-          margin-bottom: 10px;
           min-height: 193px;
-          max-height: 193px; }
-          .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside img {
-            max-width: 193px;
-            margin: 0 auto;
-            width: auto;
-            display: block; }
+          max-height: 193px;
+          max-width: 193px;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto 10px;
+          /* img { max-width: 193px; margin: 0 auto; width: auto; display: block;} */ }
+          .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside span {
+            color: black;
+            -webkit-text-fill-color: white;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: black;
+            font-family: "galanogrotesqueal-altdemobold", Arial, sans-serif;
+            font-size: 60px;
+            padding-top: 10px; }
+        .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item .icon-10 {
+          background: url(../images/icon-10-new.png);
+          background-size: 100%; }
+        .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item .icon-50 {
+          background: url(../images/icon-50-new.png) no-repeat;
+          background-size: 190px; }
+        .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item .icon-100 {
+          background: url(../images/icon-100-new.png) no-repeat;
+          background-size: 100%; }
         .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item article {
           text-align: center; }
           .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item article h4 {
@@ -1094,10 +1114,10 @@ header.active {
         content: '';
         width: 100%;
         height: 17px;
-        background: url(../images/yellow-bg-top.png);
+        background: url(../images/yellow-bg-top2.png);
         position: absolute;
         top: -17px;
-        background-size: 100%;
+        background-size: auto;
         left: 0;
         background-repeat-y: no-repeat; }
       .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .ch-yellow::before {
@@ -1121,10 +1141,10 @@ header.active {
         content: '';
         width: 100%;
         height: 17px;
-        background: url(../images/orange-bg.png);
+        background: url(../images/orange-bg2.png);
         position: absolute;
         top: -17px;
-        background-size: 100%;
+        background-size: auto;
         left: 0;
         background-repeat-y: no-repeat; }
       .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .ch-orange::before {
@@ -1148,10 +1168,10 @@ header.active {
         content: '';
         width: 100%;
         height: 17px;
-        background: url(../images/red-bg.png);
+        background: url(../images/red-bg2.png);
         position: absolute;
         top: -17px;
-        background-size: 100%;
+        background-size: auto;
         left: 0;
         background-repeat-y: no-repeat; }
       .exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .ch-red::before {
@@ -1766,7 +1786,193 @@ header.active {
           display: none; }
           .thanks .sec-1 .thanks-hldr .submit-hldr article .img-hldr img {
             width: auto;
-            max-width: 100%; }
+            max-width: 100%;
+            margin: 50px auto;
+            display: block; }
+
+.p-policy .policy {
+  padding-top: 200px; }
+  .p-policy .policy .top {
+    text-align: center;
+    padding: 0px 50px 50px;
+    border-bottom: 3px solid #003462; }
+    .p-policy .policy .top h3 {
+      color: #1e7dbd; }
+    .p-policy .policy .top p {
+      font-family: "galanogrotesqueal-alt", Arial, sans-serif;
+      font-size: 20px;
+      color: #003462;
+      margin-top: 10px;
+      font-weight: bold; }
+  .p-policy .policy .top::after {
+    position: absolute;
+    content: '';
+    bottom: 10px;
+    height: 3px;
+    background: #003462;
+    width: 100%;
+    left: 0; }
+  .p-policy .policy .body {
+    padding: 75px 0px 185px; }
+    .p-policy .policy .body .hldr {
+      max-width: 65%;
+      margin: 0 auto;
+      position: relative;
+      z-index: 3; }
+      .p-policy .policy .body .hldr .top-p p {
+        font-family: "galanogrotesque-r-reg", Arial, sans-serif;
+        font-size: 22px;
+        color: #003462;
+        margin-bottom: 30px;
+        line-height: 32px; }
+      .p-policy .policy .body .hldr .top-p p.bold {
+        font-family: "galanogrotesque-s-semi_bold", Arial, sans-serif;
+        letter-spacing: 1px; }
+      .p-policy .policy .body .hldr .acc-list li .acc .acc-title {
+        border: 3px solid #003462;
+        border-bottom: 0px;
+        background-image: url(../images/arrow-acc.png);
+        background-repeat: no-repeat;
+        background-position: right 20px center;
+        background-size: 30px; }
+        .p-policy .policy .body .hldr .acc-list li .acc .acc-title h3 {
+          cursor: pointer;
+          padding: 20px 40px;
+          font-family: "galanogrotesque-s-semi_bold", Arial, sans-serif;
+          font-size: 24px;
+          color: #fff;
+          letter-spacing: 1px;
+          padding-right: 60px; }
+      .p-policy .policy .body .hldr .acc-list li .acc .acc-title.bordered {
+        border-bottom: 3px solid #003462; }
+      .p-policy .policy .body .hldr .acc-list li .acc .content {
+        display: none;
+        padding: 40px 30px;
+        border: 3px solid #003462;
+        border-top: 0px;
+        border-bottom: 0px;
+        background: #fff; }
+        .p-policy .policy .body .hldr .acc-list li .acc .content p {
+          font-family: "galanogrotesqueal-alt", Arial, sans-serif;
+          font-size: 22px;
+          color: #003462;
+          margin-bottom: 25px; }
+        .p-policy .policy .body .hldr .acc-list li .acc .content ul {
+          margin: 35px 0px; }
+          .p-policy .policy .body .hldr .acc-list li .acc .content ul li {
+            padding-left: 40px;
+            font-family: "galanogrotesqueal-alt", Arial, sans-serif;
+            font-size: 22px;
+            color: #003462;
+            margin-bottom: 25px;
+            position: relative; }
+          .p-policy .policy .body .hldr .acc-list li .acc .content ul li::after {
+            position: absolute;
+            content: '';
+            height: 8px;
+            width: 8px;
+            background: #003462;
+            border-radius: 50%;
+            left: 0;
+            top: 11px; }
+        .p-policy .policy .body .hldr .acc-list li .acc .content .alphabet-list {
+          list-style-type: lower-latin; }
+          .p-policy .policy .body .hldr .acc-list li .acc .content .alphabet-list > li {
+            font-family: "galanogrotesqueal-alt", Arial, sans-serif;
+            font-size: 22px;
+            color: #003462;
+            margin-bottom: 25px;
+            padding-left: 0px;
+            padding-left: 20px; }
+          .p-policy .policy .body .hldr .acc-list li .acc .content .alphabet-list > li::after {
+            display: none; }
+        .p-policy .policy .body .hldr .acc-list li .acc .content ol li {
+          font-family: "galanogrotesqueal-alt", Arial, sans-serif;
+          font-size: 22px;
+          color: #003462;
+          margin-bottom: 25px;
+          padding-left: 10px; }
+      .p-policy .policy .body .hldr .acc-list li .acc .content.active {
+        display: block; }
+      .p-policy .policy .body .hldr .acc-list li:last-child .acc-title {
+        border-bottom: 3px solid #003462; }
+      .p-policy .policy .body .hldr .acc-list li:last-child .content {
+        border-bottom: 3px solid #003462; }
+      .p-policy .policy .body .hldr .acc-list li:nth-child(7n + 1) .acc-title {
+        background-color: #227ebd; }
+      .p-policy .policy .body .hldr .acc-list li:nth-child(7n + 2) .acc-title {
+        background-color: #fecf07; }
+      .p-policy .policy .body .hldr .acc-list li:nth-child(7n + 3) .acc-title {
+        background-color: #f6881f; }
+      .p-policy .policy .body .hldr .acc-list li:nth-child(7n + 4) .acc-title {
+        background-color: #76499d; }
+      .p-policy .policy .body .hldr .acc-list li:nth-child(7n + 5) .acc-title {
+        background-color: #ef4351; }
+      .p-policy .policy .body .hldr .acc-list li:nth-child(7n + 6) .acc-title {
+        background-color: #29a872; }
+      .p-policy .policy .body .hldr .acc-list li:nth-child(7n + 7) .acc-title {
+        background-color: #81cbea; }
+      .p-policy .policy .body .hldr .accpt {
+        text-align: center;
+        margin-top: 30px; }
+        .p-policy .policy .body .hldr .accpt img {
+          width: auto;
+          max-width: 100%; }
+    .p-policy .policy .body .float-list {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0; }
+      .p-policy .policy .body .float-list li {
+        position: absolute; }
+        .p-policy .policy .body .float-list li img {
+          width: auto; }
+      .p-policy .policy .body .float-list li:first-child {
+        top: 4.57%;
+        right: 2.77%; }
+      .p-policy .policy .body .float-list li:nth-child(2) {
+        top: 15%;
+        left: 5%; }
+      .p-policy .policy .body .float-list li:nth-child(3) {
+        top: 23.5%;
+        right: 3.1%; }
+      .p-policy .policy .body .float-list li:nth-child(4) {
+        top: 72.25%;
+        left: 5%; }
+      .p-policy .policy .body .float-list li:nth-child(5) {
+        bottom: 16.57%;
+        right: 3.75%; }
+      .p-policy .policy .body .float-list li:nth-child(6) {
+        bottom: 8.5%;
+        left: 4.30%; }
+      .p-policy .policy .body .float-list li:nth-child(7) {
+        bottom: 6.9%;
+        left: 10.83%; }
+.p-policy .policy.works .body .float-list li:first-child {
+  top: 38%;
+  right: auto;
+  left: 5.4%; }
+.p-policy .policy.works .body .float-list li:nth-child(2) {
+  bottom: 22.5%;
+  right: 4.16%;
+  left: auto;
+  top: auto; }
+.p-policy .policy.works .body .float-list li:nth-child(3) {
+  top: auto;
+  right: auto;
+  left: 5%;
+  bottom: 15.23%; }
+.p-policy .policy.works .body .float-list li:nth-child(4) {
+  top: auto;
+  right: 8.88%;
+  left: auto;
+  bottom: 8.50%; }
+.p-policy .policy.works .body .float-list li:nth-child(5) {
+  top: auto;
+  right: 6.45%;
+  left: auto;
+  bottom: 7.18%; }
 
 video {
   left: 50%;

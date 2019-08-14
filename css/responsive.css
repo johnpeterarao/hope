@@ -19,13 +19,14 @@
 	.donate .float-list li:first-child { left: 1%!important; top: 17%!important;}
 	.donate .float-list li:nth-child(2) { bottom: 1%!important; right: 2%!important;}
 
-
+	
 }
 
 
 
 @media only screen and (max-width: 1200px){
 	header .header-hldr .nav-list > li { padding: 0px 15px!important;}
+	.p-policy .policy .body .hldr { max-width: 75%!important;}
 	
 
 
@@ -36,6 +37,7 @@
 	.card-section .mainlist > li .item article h4, .exp-inner1 .sec-1 .hldr article h4, .exp-inner1 .sec-2 .con-hldr .future .main-hldr > article h4{ font-size: 30px!important;}
 	footer .footer-hldr > ul.main-list > li:nth-child(2) > .inner-list li a { font-size: 18px!important;}
 	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .hldr h4{ line-height: 44px!important;}
+	.p-policy .policy .body .hldr .top-p p, .p-policy .policy .body .hldr .top-p p, .p-policy .policy .body .hldr .acc-list li .acc .content p, .p-policy .policy .body .hldr .acc-list li .acc .content ul li, .p-policy .policy .body .hldr .acc-list li .acc .content ol li  {font-size: 20px!important; line-height: 30px!important;}
 		
 
 	/*HOME*/
@@ -94,9 +96,14 @@
 
 
 	/*FONTS*/
-	.home .sec-1 .home-carousel .item .hldr article p, .build-hope .content-hldr p { font-size: 18px!important; letter-spacing: 1px;}
+	.home .sec-1 .home-carousel .item .hldr article p, .build-hope .content-hldr p { font-size: 15px!important; letter-spacing: 1px;}
 	.card-section .mainlist > li .item article p, .how-it-works .hldr ul li p, .how-it-works .hldr .btns-hldr a, .about .sec-1 .animated-des .hero-text p, .about .sec-1 .abt-column ul li h6, .about .sec-1 .iwant a, .about .sec-1 .img-bckground .hldr .hero-text p, .about .sec-1 .img-bckground .hldr .hero-pop ul li .item article a, .exp-inner1 .sec-1 .hldr article .plist li, .exp-inner1 .sec-2 .con-hldr .future .main-hldr > article p, .exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list .main-parent article p  { font-size: 18px!important;}
 	.exp-inner1 .sec-2 .btm-list a, .exp-inner1 .sec-2 .btm-list p { font-size: 20px!important;}
+	.p-policy .policy .body .hldr .top-p p, .p-policy .policy .body .hldr .top-p p, .p-policy .policy .body .hldr .acc-list li .acc .content p, .p-policy .policy .body .hldr .acc-list li .acc .content ul li, .p-policy .policy .body .hldr .acc-list li .acc .content ol li  {font-size: 18px!important; line-height: 28px!important;}
+
+
+
+
 
 	/*HOME*/
 	.home .sec-1 .home-carousel .item .hldr { padding-top: 320px!important;}
@@ -264,7 +271,8 @@
 	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list:last-of-type > li:last-child { padding-bottom: 0px!important;}
 	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .main-list:last-of-type > li:last-child::after { display: none!important;}
 
-	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial { padding: 80px 0px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial { padding: 80px 0px 200px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial::after {     position: absolute; height: 100px; content: ''; background: #000; left: 50%; bottom: 50px; transform: translate(-50%, 0); width: 3px;}
 	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .icon.right-top img { display: none!important;}
 	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .icon { position: relative!important; bottom: 0!important; left: 0!important; margin: 0 auto;} 
 	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial .icon img{ width: 140px!important; margin: 0 auto; display: block;}
@@ -304,14 +312,18 @@
 	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:nth-child(4) .parent input[type="text"] { width: calc(100% - 265px)!important; }
 	.thanks .sec-1 .thanks-hldr { padding: 0px 20px!important; max-width: 100%!important;}
 
-	.thanks .sec-1 .thanks-hldr .parent article{ width: 100%!important; padding-top: 40px!important; padding-right: 0px!important; padding-bottom: 75px!important;}
+	.thanks .sec-1 .thanks-hldr .parent article{ width: 100%!important; padding-top: 40px!important; padding-right: 0px!important; padding-bottom: 75px!important; text-align: center;}
 	.thanks .sec-1 .thanks-hldr .parent aside {  width: 100%!important; max-width: 500px!important; margin: 0 auto!important;}
 	.thanks .sec-1 .thanks-hldr .parent article ul li .blue-btn { padding-right: 0px!important; width: 100%!important;}
 	
 	.thanks .sec-1 .thanks-hldr .parent article ul li:first-child { width: 100%!important; margin-bottom: 40px; padding-right: 0px!important;}
 	.thanks .sec-1 .thanks-hldr .parent article ul { justify-content: center!important;}
 
-	.donate .float-list { display: none!important;}
+	/*.donate .float-list { display: none!important;}*/
+	.donate .body .mid { padding: 65px 0px 170px!important; }
+	.donate .float-list li:first-child { bottom: 10px!important; left: 18%!important; top: auto!important; width: 140px!important; }
+	.donate .float-list li img { width: 100%!important;}
+	.donate .float-list li:nth-child(2) { max-width: 88px!important; bottom: 28px!important; right: 17.25%!important; }
 
 
 
@@ -360,6 +372,18 @@
 
 
 	.sec-list-hldr .dnow { width: 100px!important;}
+	.thanks .sec-1 .thanks-hldr .submit-hldr article > ul > li:last-child { text-align: center;}
+	.thanks .sec-1 .thanks-hldr .submit-hldr article .img-hldr { display: block!important; }
+
+	.p-policy .policy { padding-top: 50px!important;}
+	.p-policy .policy .body .float-list { display: none!important;}
+	.p-policy .policy .body { padding: 40px 0px 150px!important;}
+	.p-policy .policy .body .hldr .acc-list li .acc .content ul li { padding-left: 25px!important;}
+	.p-policy .policy .body .hldr .acc-list li .acc .content ul li::after { height: 6px!important; width: 6px!important; }
+	.p-policy .policy .body .hldr .acc-list li .acc .content { padding: 30px 20px!important;}
+	.p-policy .policy .body .hldr .acc-list li .acc .acc-title h3 { font-size: 20px!important; padding: 15px 20px!important; padding-right: 60px!important;}
+
+
 
 }	
 
@@ -414,7 +438,7 @@
 
 
 	.about .animated-des.lblue { min-height: calc(100vh - 91px)!important}
-
+	.p-policy .policy .body .hldr { max-width: 100%!important; padding: 0px 20px!important;}
 
 
 
@@ -441,20 +465,58 @@
 
 
 
-/*PRE-MOBILEs*/
+/*PRE-MOBILEs CHANGE HERE SIZES OF IMAGES*/
 
 
 @media only screen and (max-width: 650px){
 	header .header-hldr aside { max-width: 100%!important; padding-left: 50px!important;}
 	header .header-hldr aside img { width: auto!important;}
-	.home .sec-1 .logo-hldr { position: relative!important; max-width: 100%!important; top: 0!important; left: 0!important; padding-top: 30px!important; }
-	.home .sec-1 .logo-hldr img { width: 180px!important; display: block; max-width: 100%; margin: 0 auto!important; }
-	.home .sec-1 .home-carousel .item .floatings-list { display: none!important;}
-	.home .sec-1 .home-carousel .item .hldr { padding-top: 30px!important;}
-	.home .sec-1 .home-carousel .item .hldr article { min-height: auto!important; max-width: 100%!important; padding-top: 0px!important; padding-left: 0px!important; padding-right: 0px!important;}
+	.home .sec-1 .logo-hldr { max-width: 100%!important; top: 35px!important; left: 50%!important; transform: translate(-50%, 0); }
+	.home .sec-1 .logo-hldr img { width: 140px!important; display: block; max-width: 100%; margin: 0 auto!important; }
+	/*.home .sec-1 .home-carousel .item .floatings-list { display: none!important;}*/
+	.home .sec-1 .home-carousel .item .hldr { padding-top: 135px!important;}
+	.home .sec-1 .home-carousel .item .hldr article { min-height: auto!important; max-width: 100%!important; padding-top: 0px!important; padding-left: 0px!important; padding-right: 0px!important; text-align: center; }
 	.home .sec-1 .home-carousel .item .hldr aside img { position: relative!important; width: auto!important; margin: 0 auto; display: block!important; max-width: 100%!important;}
-	.home .sec-1 .home-carousel .item .hldr aside { width: 100%!important; right: auto!important; padding: 0px 40px; padding-top: 20px;}
-	.build-hope .content-hldr {     padding: 130px 0px 125px!important; }
+	.home .sec-1 .home-carousel .item .hldr aside { width: 100%!important; right: auto!important; padding: 0px 20px; padding-top: 20px; max-width: 220px; margin: 0 auto;}
+	.build-hope .content-hldr {     padding: 60px 0px 65px!important; }
+
+	.home .sec-1 .home-carousel .item .floatings-list li:first-child { width: 75px!important; left: 10px!important; bottom: 38px!important; z-index: 3!important; }
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(7) { width: 75px!important; right: 1px!important; bottom: 25px!important}
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(6) { width: 49px!important; left: 14px!important; top: 42px!important;}
+	.home .sec-1 .home-carousel .owl-item.active .floatings-list li:nth-child(4) { max-width: 47px!important; left: 9px!important; bottom: 145px!important;}
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(2) { max-width: 62px!important; left: 41px!important; bottom: 186px!important; }
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(3) { max-width: 53px!important; right: 26px!important; top: auto!important; bottom: 168px!important; }
+
+	.home .sec-1 .home-carousel .item .floatings-list li:nth-child(5) { max-width: 70px!important; right: 14px!important; left: auto!important; top: 44px!important; }
+
+	.build-hope .globe { width: 50px!important; right: 24px!important; top: 30px!important;}
+	.build-hope .star { width: 25px!important; left: 25px!important; bottom: 67px!important;}
+	.build-hope .school { width: 60px!important; left: 42px!important; bottom: 25px!important;}
+
+	.about .animated-des.bg-orange .floating-list li:nth-child(8) {     max-width: 94px!important; top: 41px!important; left: 60px!important; }
+	.about .animated-des.bg-orange { padding: 142px 0px 175px!important;}
+	.about .sec-1 .animated-des .floating-list.active li:nth-child(6) { max-width: 54px!important; right: 57px!important; top: 31px!important; }
+	.about .animated-des.bg-orange .floating-list li:nth-child(5) { width: 22px!important; bottom: 31.37%!important; right: 11.5%!important; }
+	.about .animated-des.bg-orange .floating-list li:nth-child(7) { max-width: 69px!important; right: 5.5%!important; bottom: 6.9%!important; }
+	.about .animated-des.bg-orange .floating-list li:nth-child(1) { max-width: 49px!important; right: 25.75%!important; bottom: 14.52%!important; }
+	.about .sec-1 .animated-des .floating-list li:nth-child(3) { max-width: 102px!important; left: 13%!important; bottom: 3.70%!important; }
+	.about .sec-1 .animated-des .floating-list li:nth-child(4) { max-width: 22px!important; left: 5.75%!important; bottom: 12.98%!important; }
+	.about .animated-des.bg-orange .floating-list li:nth-child(2) { max-width: 77px!important; left: 8.25%!important; bottom: 21.94%!important; }
+	.about .sec-1 .iwant { margin-top: 32px!important;}
+	.about .animated-des.lblue { background: #00a9ba!important;}
+	.about .sec-1 .img-bckground .hldr .hero-text { min-height: calc(100vh - 81px); }
+	.experience-initial .sec-1 { padding: 40px 0px!important;}
+
+	.exp-inner1 .sec-1 .hldr aside .img-hldr { max-width: 300px!important; margin: 0 auto!important; padding: 30px 20px 0px!important;}
+	.exp-inner1 .sec-1 .hldr aside span:nth-of-type(2) { max-width: 38px!important; left: 12.75%!important; top: 57%!important; }
+	.exp-inner1 .sec-1 .hldr aside span:nth-of-type(1) { max-width: 61px!important; top: 14%!important; right: 20.5%!important;}
+	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-nav > div { width: 15px!important; background-size: 15px!important;}
+
+	.p-policy .policy .body .hldr .acc-list li .acc .content ol { padding-left: 20px!important;}
+	.p-policy .policy .body .hldr .acc-list li .acc .content .alphabet-list { padding-left: 0px!important;}
+	.p-policy .policy .body .hldr .acc-list li .acc .content ul.alphabet-list li { padding-left: 10px!important;}
+
+
 }
 
 
@@ -487,13 +549,13 @@
 
 
 	/*home*/
-	.build-hope .star { bottom: auto!important; top: 30px!important;}
+	/*.build-hope .star { bottom: auto!important; top: 30px!important;}*/
 	.card-section .mainlist { padding: 0px 20px!important;}
 	.card-section .mainlist > li .item article { padding: 20px!important;}
 	.card-section .mainlist > li .item article .btns-card a {display: block!important; margin-right: 0px!important; margin-bottom: 15px!important;}
 	.card-section .mainlist > li .item article .btns-card a:last-of-type { margin-bottom: 0px!important; }
 	.card-section .mainlist > li .item article ul > li:last-child .parent .children { width: 100%!important; margin-bottom: 5px; text-align: center;}
-	.how-it-works { padding: 50px 0px 100px!important;}
+	.how-it-works { padding: 50px 0px 150px!important;}
 	.how-it-works .hldr .btns-hldr a { display: block!important; margin-right: 0px!important; margin-bottom: 10px;}
 	.how-it-works .hldr .btns-hldr a:last-of-type { margin-bottom: 0px;}
 	.how-it-works .hldr .btns-hldr{ margin-top: 20px!important;}
@@ -516,10 +578,10 @@
 
 
 
-	.about .animated-des.bg-orange .floating-list li:nth-child(7), .about .animated-des.bg-orange .floating-list.active li:nth-child(2), .about .sec-1 .animated-des.bg-orange .floating-list.active li:nth-child(5) { display: none!important;}
-	.about .animated-des.bg-orange .floating-list li:nth-child(8) { width: 110px!important; top: 40px!important;}
+	/*.about .animated-des.bg-orange .floating-list li:nth-child(7), .about .animated-des.bg-orange .floating-list.active li:nth-child(2), .about .sec-1 .animated-des.bg-orange .floating-list.active li:nth-child(5) { display: none!important;}*/
+	/*.about .animated-des.bg-orange .floating-list li:nth-child(8) { width: 110px!important; top: 40px!important;}
 	.about .animated-des.bg-orange .floating-list li:nth-child(6) { width: 85px!important; top: 20px!important;}
-	.about .animated-des.bg-orange .floating-list li:nth-child(1) { right: 20px!important; width: 90px!important;}
+	.about .animated-des.bg-orange .floating-list li:nth-child(1) { right: 20px!important; width: 90px!important;}*/
 
 	.about .sec-1 .animated-des.bg-orange { padding: 125px 0px 240px!important; }
 
@@ -531,7 +593,7 @@
 
 
 	.experience-initial .card-section { padding: 50px 0px!important;}
-	.experience-initial .sec-1 { padding: 80px 0px!important;}
+	/*.experience-initial .sec-1 { padding: 80px 0px!important;}*/
 
 
 	.exp-inner1 .sec-1 .hldr article { max-width: 100%!important;     padding: 40px 20px!important; }
@@ -557,14 +619,14 @@
 	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li select { width: 100%!important;}
 	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .violet-bg .hldr ul li > .parent-in h5 { padding-right: 0px!important;}
 	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside img { max-width: 140px!important;}
-	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside { min-height: 145px!important; max-height: 145px!important;}
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside { min-height: 145px!important; max-height: 145px!important; max-width: 145px!important; background-size: 100%!important;}
 	.exp-inner1 .sec-1 { padding-top: 0px!important;}
 	
 	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > article { max-width: 100%!important; padding: 40px 20px!important;}
 
 	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-nav .owl-prev { left: 20px!important;}
 	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-nav .owl-next { right: 20px!important;}
-	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-nav > div { width: 20px!important; height: 44px!important; background-size: 20px 44px!important;}
+	/*.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-nav > div { width: 20px!important; height: 44px!important; background-size: 20px 44px!important;}*/
 	.exp-inner1 .sec-2 .con-hldr .future .main-hldr > aside .exp-carousel .owl-dots { bottom: 5px!important;}
 	.exp-inner1 .sec-2 .con-hldr .faq .main-hldr { max-width: 100%!important;}
 
@@ -606,6 +668,11 @@
 	.about .sec-1 .img-bckground.video-bckground .hldr .hero-text { padding: 40px 20px 0px!important; }
 
 	.about .sec-1 .img-bckground.video-bckground .hldr .hero-pop { margin-top: 30px; max-width: 90%!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .donate .main-list > li .donate-card .children .item aside span { font-size: 45px!important;}
+
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial::after { height: 70px!important;}
+	.exp-inner1 .sec-2 .con-hldr .updates .hldr .mid .testimonial { padding: 80px 0px 150px!important;}
 
 }
 
